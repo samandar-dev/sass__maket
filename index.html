@@ -26,35 +26,31 @@
             </a>
           </div>
 
-          <nav class="header__nav nav navbar navbar-expand-lg">
-            <div class="container-flud">
-
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <ul class="nav__list d-flex navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active aria-current=" href="#">MAIN</a>
+          <div class="header__nav-box" id="menuBox">
+            <nav class="header__nav nav">
+              <ul class="nav__list d-flex">
+                <li class="nav__item">
+                  <a class="nav__link" href="#">MAIN</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">ABOUT</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">GAME FEATURES</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">GAME FEATURES</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">SYSTEM REQUIREMENTS</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">SYSTEM REQUIREMENTS</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">QUOTES</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">QUOTES</a>
                 </li>
               </ul>
-            </div>
-          </nav>
+            </nav>
 
-
+            <button class="removee-btn" id="menuRemov">
+              <i class='bx bx-x'></i>
+            </button>
+          </div>
 
           <div class="header__icons-box d-flex align-items-center">
             <div class="header__selec selec">
@@ -78,14 +74,44 @@
                 <img class="he-icons__icon" src="images/icon-2.svg" alt="icon">
               </button>
             </div>
+
+            <button class="menu-btn" id="menuBtn">
+              <i class='bx bx-menu-alt-right'></i>
+            </button>
           </div>
         </div>
       </div>
     </header>
 
 
+    <div class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__desc">
+            <h2 class="hero__title">
+              SURVIVE AT ALL COSTS
+            </h2>
+            <p class="hero__tit">Experience new social battle royale game</p>
+
+            <button class="hero__btn">Buy Now on Steam
+              <span class="hero__btn-span">$14.99</span>
+            </button>
+          </div>
+
+          <div class="hero__cursor">
+            <a class="hero__cur-link" href="#">The story <br>
+              <i class='bx bxs-chevrons-down bx-tada'></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
   </section>
+
+
+
 
 
   <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
