@@ -640,7 +640,7 @@ option {
 
 @media screen and (max-width: 980px) {
   .hero__inner {
-    padding-top: 120px;
+    padding-top: 170px;
   }
   .hero__title {
     font-size: 55px;
@@ -652,6 +652,9 @@ option {
 }
 
 @media screen and (max-width: 480px) {
+  .hero__inner {
+    padding-top: 90px;
+  }
   .hero__title {
     font-size: 33px;
     line-height: 40px;
@@ -729,7 +732,7 @@ option {
 
 .carousel-inner {
   max-width: 505px;
-  height: auto;
+  height: 610px;
   border-radius: 4px;
   overflow: hidden;
 }

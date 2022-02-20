@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 980px) {
   .hero__inner {
-    padding-top: 120px;
+    padding-top: 170px;
   }
   .hero__title {
     font-size: 55px;
@@ -58,6 +58,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  .hero__inner {
+    padding-top: 90px;
+  }
+
   .hero__title {
     font-size: 33px;
     line-height: 40px;
