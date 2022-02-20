@@ -133,12 +133,12 @@
 
 @media screen and (max-width: 700px) {
   .footer__nav-box {
-    max-width: 100%;
+    max-width: 290px;
     height: auto;
     margin: 0 auto;
   }
   .foot__list {
-    max-width: 290px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     display: flex;
