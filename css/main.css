@@ -1734,11 +1734,12 @@ option {
     margin: 0 auto;
   }
   .footer__foot {
-    width: auto;
-    height: auto;
-    margin: 0 auto;
+    max-width: 100%;
   }
   .foot__list {
+    max-width: 290px;
+    height: auto;
+    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1765,11 +1766,6 @@ option {
   .fo-desc__item {
     margin-bottom: 15px;
   }
-  .footer__foot {
-    max-width: 290px;
-    height: auto;
-    margin: 0 auto;
-  }
   .fo-desc__text {
     font-size: 12px;
     line-height: 19px;
@@ -1779,11 +1775,6 @@ option {
 @media screen and (max-width: 455px) {
   .foot__item:nth-child(3) {
     margin-right: 0;
-  }
-  .footer__foot {
-    max-width: 290px;
-    height: auto;
-    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
