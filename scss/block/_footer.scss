@@ -139,7 +139,7 @@
   }
 
   .footer__foot {
-    max-width: 250px;
+    width: auto;
     height: auto;
     margin: 0 auto;
   }
@@ -164,6 +164,11 @@
   .fo-desc__item {
     margin-bottom: 15px;
   }
+  .footer__foot {
+    max-width: 290px;
+    height: auto;
+    margin: 0 auto;
+  }
   .fo-desc__text {
     font-size: 12px;
     line-height: 19px;
@@ -173,5 +178,10 @@
 @media screen and (max-width: 455px) {
   .foot__item:nth-child(3) {
     margin-right: 0;
+  }
+  .footer__foot {
+    max-width: 290px;
+    height: auto;
+    margin: 0 auto;
   }
 }
