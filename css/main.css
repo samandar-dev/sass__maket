@@ -1725,10 +1725,12 @@ option {
 }
 
 @media screen and (max-width: 700px) {
-  .footer__nav-box {
-    max-width: 290px;
+  .footer__nav {
+    width: 100%;
   }
   .foot__list {
+    max-width: 290px;
+    margin: 0 auto;
     height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
