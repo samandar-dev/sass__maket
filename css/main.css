@@ -1025,7 +1025,7 @@ option {
     padding-right: 0;
   }
   .fe-item__icon:focus::after {
-    height: 140px;
+    height: 136px;
   }
 }
 
@@ -1729,14 +1729,16 @@ option {
 
 @media screen and (max-width: 700px) {
   .footer__nav-box {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .footer__foot {
     max-width: 290px;
     height: auto;
     margin: 0 auto;
   }
   .foot__list {
-    width: 100%;
-    margin: 0 auto;
-    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
