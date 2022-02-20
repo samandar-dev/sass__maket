@@ -132,13 +132,12 @@
 }
 
 @media screen and (max-width: 700px) {
-  .footer__nav {
-    width: 100%;
+  .footer__nav-box {
+    width: 290px;
+    height: auto;
+    margin: 0 auto;
   }
   .foot__list {
-    max-width: 290px;
-    margin: 0 auto;
-    height: auto;
     display: flex;
     flex-wrap: wrap;
   }
