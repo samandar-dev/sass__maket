@@ -732,7 +732,7 @@ option {
 
 .carousel-inner {
   max-width: 505px;
-  height: 610px;
+  max-height: 610px;
   border-radius: 4px;
   overflow: hidden;
 }
