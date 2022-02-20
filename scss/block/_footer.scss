@@ -134,6 +134,7 @@
 @media screen and (max-width: 700px) {
   .footer__nav-box {
     max-width: 290px;
+    margin: 0 auto;
   }
   .foot__list {
     height: auto;
@@ -141,7 +142,7 @@
     flex-wrap: wrap;
   }
   .foot__item {
-    margin-right: 30px;
+    margin-right: 22px;
     margin-bottom: 15px;
   }
   .foot__item:nth-child(3) {
@@ -164,9 +165,6 @@
 }
 
 @media screen and (max-width: 455px) {
-  .foot__item {
-    margin-right: 22px;
-  }
   .foot__item:nth-child(3) {
     margin-right: 0;
   }
