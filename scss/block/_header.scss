@@ -16,6 +16,11 @@
 }
 .nav__link {
   @include list-link();
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: $color-white;
+  }
 }
 
 .selec__lang,

@@ -41,6 +41,12 @@
   border: none;
   display: inline-block;
   border-radius: $bd-radius;
+
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: #df9322;
+  }
 }
 
 @mixin list-style {
